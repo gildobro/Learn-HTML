@@ -11,9 +11,17 @@ ex of element:
 -</h> closing tag
 
 List Item Element
+-Lists must first be identified by parent elements being either
+<ol> or <ul>
 -The <li> list item element create list items inside:
 	-Ordered lists <ol>
+		-Prints lists as numbers from 1-n
+		-ie. 1.Animals
+		     2.Plants
+		     3.Humans
 	-Unordered lists <ul>
+		-Prints lists as points
+		
 Example:
 <ol>
   <li>one</li>
@@ -38,9 +46,95 @@ VIDEO ELEMENT EX:
   Video not supported
 </video>
 
+<video src="myVideo.mp4" width="320" height="240" controls>
+  Video not supported
+</video>
+
+-After the src attribute, the width and height attributes are
+used to set the size of the video displayed in the browser.
+-The controls attribute instructs the browser to include basic
+video controls: pause, play and skip.
+
 Emphasis Element
 The <em> emphasis element emphasizes text and browsers will usually italicize the emphasized text
 by default.
 
 EMPHASIS EX:
 <p>This <em>word</em> will be emphasized in italics.</p>
+
+Styling Text:
+-The <em> tag will generally render as 'italic' emphasis
+
+-The <strong> will generally render as 'bold' emphasis
+
+Breaking a line(enter)
+-modifying or spacing in the browser is called
+the line break element: <br>
+-Unique due to only having an opening tag
+-Basically just hits enter to your text
+
+Adding Images:
+-The <img> tag allows you to add an image to a web
+page
+-It is a self closing tag meaning it has a / in its opening
+tag
+-the <img> tag requires an attribute called src. The src attribute
+must be set to the image's source, or the location of the image.
+-src must be set to the images source or uniform resource locator (URL)
+-<img src="image-location.jpg" />
+
+Image Alts:
+-the alt attribute which means alternative text brings meaning to the images
+on sites
+-the alt attribute can be added to the image tag just like the src attribute
+-The value of alt should be a description of the image
+-Must be as accurate and sufficiant as possibe. Short n Sweet
+-<img src="#" alt="A field of yellow sunflowers" />
+
+More on Alts:
+-If an image fails to load on a web page, a user can mouse over the area
+originally intented for the image and read a brief description of the image. This is
+made possible by the description you provide in the alt attribute.
+
+-Visually impaired users often browse the web with the aid of screen reading software.
+When you include the alt attribute, the screen reading software can read the image's
+description out loud to the visually impaired user.
+
+**
+-The alt attribute also plays a role in Search Engine Optimization (SEO),
+because search engines cannot "see" the images on websites as they crawl the internet.
+Having descriptive alt attributes can improve the ranking of your site.
+**
+
+-if image does not have meaningful info, the alt attribute should be left empty.
+
+
+
+REVIEW:
+-HTML stands for HyperText Markup Language and is used to create the structure and content
+of a webpage
+
+-Most HTML elements contain opening and closing tags with raw text or other HTML tags between
+them.
+
+-HTML elements can be nested inside other elements. The enclosed element is the child of the
+enclosing parent element.
+
+-Any visible content should be placed within the opening and closing <body> tags
+
+-Headings and sub
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
