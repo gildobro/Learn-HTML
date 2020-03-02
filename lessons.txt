@@ -1,0 +1,46 @@
+HTML - stands for HyperText Markup Language. A markup language is used
+to annotate computer systems and define its structure and text.
+
+Element Content - The content of an HTML element is the information
+between the opening and closing tags of an element.
+
+ex of element:
+<h1>Codeacademy is awesome!</h>
+-<h1> opening tag
+-'Codeacademy is awesome!' - Content
+-</h> closing tag
+
+List Item Element
+-The <li> list item element create list items inside:
+	-Ordered lists <ol>
+	-Unordered lists <ul>
+Example:
+<ol>
+  <li>one</li>
+  <li>two</li>
+</ol>
+<ul>
+  <li>list item</li>
+  <li>list item</li>
+</ul>
+
+
+Video Element
+The <video> element embeds a media player into an HTML document for video playback.
+The src attribute will contain the URL to the video. Adding the controls attribute will display
+video controls in the media player.
+
+Note: <video> element can contain text content between its opening and closing tags which will be
+displayed if the browser does not support the video format or if the video fails to load.
+
+VIDEO ELEMENT EX:
+<video src="test-video.mp4" controls>
+  Video not supported
+</video>
+
+Emphasis Element
+The <em> emphasis element emphasizes text and browsers will usually italicize the emphasized text
+by default.
+
+EMPHASIS EX:
+<p>This <em>word</em> will be emphasized in italics.</p>
